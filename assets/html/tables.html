@@ -18,19 +18,21 @@
         background-color: #96d4d4;
       }
     </style>
-    <table>
+    <table style="width: 100%;">
+      <!-- //this row is the table header -->
       <tr>
-        <th>Name</th>
+        <th colspan="2" style="width:50%">Name</th>
         <th>Class</th>
-        <th>Fav Subject</th>
-        <th>Date</th>
+        <th style="width:10%">Fav Subject</th>
       </tr>
-      <tr>
+      <!-- //table body -->
+      <tr  style="height:200px">
         <td>John</td>
         <td>ss2</td>
         <td>Crk</td>
         <td>28-Feb-2014</td>
       </tr>
+
       <tr>
         <td>Janet</td>
         <td>ss1</td>
@@ -50,5 +52,21 @@
         <td>15-April-2014</td>
       </tr>
     </table>
+
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>Jill</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>555-1234</td>
+      </tr>
+      <tr>
+        <td>555-8745</td>
+    </tr>
+    </table>
+
   </body>
 </html>
