@@ -1,0 +1,10 @@
+.hello{
+    font-size: 40px;
+    color: aquamarine;
+}
+p{
+    font-size: 30px;
+}
+.p_one,#p_two{
+    font-size: 20px;
+}
