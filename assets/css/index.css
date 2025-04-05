@@ -1,10 +1,16 @@
-.hello{
-    font-size: 40px;
-    color: aquamarine;
+*{
+    color: red;
 }
-p{
-    font-size: 30px;
+
+.hello {
+  font-size: 40px;
+  color: aquamarine;
 }
-.p_one,#p_two{
-    font-size: 20px;
+p,
+b {
+  font-size: 30px;
+}
+.p_one,
+#p_two {
+  font-size: 20px;
 }
